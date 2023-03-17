@@ -3,13 +3,13 @@ using NUnit.Framework;
 
 namespace Codewars.Test._8_kyu
 {
-  [TestFixture]
-  public class OppositeNumberTest
-  {
-    [Test]
-    public void HandleTest()
+    [TestFixture]
+    public class OppositeNumberTest
     {
-      Assert.That(OppositeNumber.Handle(-1), Is.EqualTo(1));
+        [Test]
+        public void HandleTest()
+        {
+            Assert.That(OppositeNumber.Handle(-1), Is.EqualTo(1));
+        }
     }
-  }
 }

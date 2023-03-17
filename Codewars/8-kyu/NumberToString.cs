@@ -1,10 +1,10 @@
 ﻿namespace Codewars._8_kyu
 {
-  public static class NumberToString
-  {
-    public static string Handle(int num)
+    public static class NumberToString
     {
-      return num.ToString();
+        public static string Handle(int num)
+        {
+            return num.ToString();
+        }
     }
-  }
 }

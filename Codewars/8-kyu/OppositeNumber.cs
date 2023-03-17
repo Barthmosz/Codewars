@@ -1,10 +1,10 @@
 ﻿namespace Codewars._8_kyu
 {
-  public class OppositeNumber
-  {
-    public static int Handle(int number)
+    public class OppositeNumber
     {
-      return number * (-1);
+        public static int Handle(int number)
+        {
+            return number * (-1);
+        }
     }
-  }
 }

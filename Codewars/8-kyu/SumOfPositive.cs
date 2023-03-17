@@ -1,18 +1,18 @@
 ﻿namespace Codewars._8_kyu
 {
-  public static class SumOfPositive
-  {
-    public static int Handle(int[] arr)
+    public static class SumOfPositive
     {
-      int result = 0;
-      for (int i = 0; i < arr.Length; i++)
-      {
-        if (arr[i] > 0)
+        public static int Handle(int[] arr)
         {
-          result += arr[i];
+            int result = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > 0)
+                {
+                    result += arr[i];
+                }
+            }
+            return result;
         }
-      }
-      return result;
     }
-  }
 }

@@ -1,10 +1,10 @@
 ﻿namespace Codewars._8_kyu
 {
-  public static class Multiply
-  {
-    public static int Handle(int a, int b)
+    public static class Multiply
     {
-      return a * b;
+        public static int Handle(int a, int b)
+        {
+            return a * b;
+        }
     }
-  }
 }
