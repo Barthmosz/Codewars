@@ -1,10 +1,10 @@
 ﻿namespace Codewars._8_kyu
 {
-  public static class BoolToWord
-  {
-    public static string Handle(bool word)
+    public static class BoolToWord
     {
-      return word ? "Yes" : "No";
+        public static string Handle(bool word)
+        {
+            return word ? "Yes" : "No";
+        }
     }
-  }
 }
