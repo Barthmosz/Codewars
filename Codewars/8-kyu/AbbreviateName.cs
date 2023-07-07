@@ -9,7 +9,7 @@
             char firstLetter = name[0];
             char lastLetter = name[name.IndexOf(" ") + 1];
             
-            result = $"{firstLetter}.{lastLetter}";
+            result = $"{firstLetter.ToString().ToUpper()}.{lastLetter.ToString().ToUpper()}";
 
             return result;
         }
